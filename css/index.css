@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.loging{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-image: url(../images/logingBgi.jpg);
+    background-size: 100% 100%;
+    position: relative;
+     background-repeat: no-repeat;
+     z-index: 10000;
+}
+/* .loging h6{
+    position: absolute;
+    left: 17.7%;
+    top: 61.5%;
+    font-size: 11rem;
+    color: #548eb7; 
+ } */
+.loging .wrap{
+     position: absolute;
+     left: 22%;
+     top: 83.7%;
+     width: 2.26rem;
+     height: 0.2rem;
+     border-radius: 0.19rem;
+     border: 0.03rem solid #efdfea;
+     overflow: hidden;
+}
+.loging .wrap .w{
+    width: 0%;
+    height: 100%;
+    background-color: #b5d238;
+}
+.loging .wrapp{
+     position: absolute;
+    left: 22%;
+     top: 80%;
+     width: 1.44rem;
+     height: 0.2rem;
+     border-radius: 0.19rem;
+}
+.loging #go{
+     display: block;
+     width: 1rem;
+     height: 1rem;
+     position: absolute;
+     left:0;
+     top: -338%;
+}
+.o{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    top: 0;
+    left: 0;
+}
+.index{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/index.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    transition: all 1s;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.index .logo{
+    position: absolute;
+    top: 29%;
+    left: 28%;
+    display: block;
+    width: 1.69rem;
+    height: 1rem;
+}
+.index .sanjiao{
+     position: absolute;
+    bottom: 17.5%;
+    left: 7%;
+    display: block;
+    width: 0.68rem;
+    height: 0.6rem;
+}
+.index .shouyinji{
+     position: absolute;
+    bottom: 11%;
+    left: 30%;
+    display: block;
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.index .hezi{
+     position: absolute;
+    bottom: 15%;
+    right: 0%;
+    display: block;
+    width: 0.9rem;
+    height: 1rem;
+}
+.index .xingxing{
+     position: absolute;
+    top: 17%;
+    right: 5%;
+    display: block;
+    width: 0.25rem;
+    height:0.4rem;
+    opacity: 0.8;
+}
+.index .xingxingOne{
+     position: absolute;
+    top: 35%;
+    left: 5%;
+    display: block;
+    width: 0.2rem;
+    height:0.35rem;
+    opacity: 0.8;
+}
+.index .xingxingTwo{
+     position: absolute;
+    top: 55%;
+    left: 6%;
+    display: block;
+    width: 0.35rem;
+    height:0.5rem;
+    opacity: 0.8;
+}
+.index .btn{
+     position: absolute;
+    bottom: 4%;
+    left: 1.5%;
+    width: 2.19rem;
+    height:0.49rem;
+}
+.index #butt{
+     position: absolute;
+    bottom: 32%;
+    left: 17.5%;
+    width: 2.19rem;
+    height:0.49rem;
+}
+.xuanze{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/xuanzeBgi.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    z-index: 2;
+}
+.xuanze .zhezhao{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+    background-image: url(../images/zhezhao.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    opacity: 0.8;
+}
+.xuanze .sum{
+    width: 60px;
+    height: 30px;
+    background-color: #fde376;
+    color: red;
+    font-family: myfont;
+    font-size: 12px;
+    position: absolute;
+    left: 5%;
+    bottom: 3%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+}
+.xuanze .end{
+    width: 60px;
+    height: 30px;
+    background-color: #fde376;
+    color: red;
+    font-family: myfont;
+    font-size: 12px;
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+}
+
+.fenxiang{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/分享.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+     box-sizing: border-box;
+}
+
+.fenxiang h1{
+    text-align: center;
+    font-size: 65px;
+    color: #fde376;
+    font-family: myfont;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.fenxiang h2{
+    text-align: center;
+    font-size: 43px;
+    color: #fde376;
+    font-family: myfont;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.fenxiang .wrap{
+     max-width: 320px;
+     height: 320px;
+     overflow: scroll;
+     margin: 0 auto;
+}
+.fenxiang .wrap img{
+    float: left;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+.fen{
+    width: 150px;
+    height: 30px;
+    background-color: #fde376;
+    color: red;
+    font-family: myfont;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow:0px 0px 10px rgb(206, 24, 24);
+}
+    .swiper {
+        width: 100%;
+        height: 52%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        width: 100% !important;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: relative;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../font/Alimama_ShuHeiTi_Bold.ttf);
+}
+.swiper-slide .name{
+    font-family: myfont;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.4rem;
+    color: rgb(227, 227, 227);
+}
+.swiper-slide .item-one{
+   position: absolute;
+   top: 8%;
+   left: 5%;
+   width: 1rem;
+   height: 1rem;
+}
+.swiper-slide .item-two{
+   position: absolute;
+   top: 11%;
+   left: 36%;
+   width: 1rem;
+   height: 1rem;
+}
+.swiper-slide .item-three{
+   position: absolute;
+   top: 8%;
+   left: 68%;
+   width: 1rem;
+   height: 1rem;
+}
+.swiper-slide .item-four{
+   position: absolute;
+   top: 46%;
+   left: 18%;
+   width: 1rem;
+   height: 1rem;
+}
+.swiper-slide .item-five{
+   position: absolute;
+   top: 46%;
+   left: 52%;
+   width: 1rem;
+   height: 1rem;
+}
+.swiper-slide img{
+  width: 1rem;
+   height: 1rem;
+}
+.swiper-slide .cir{
+    width: 0.22rem;
+    height:0.22rem;
+    border-radius: 0.2rem;
+    background-color: #fee475;
+    position: absolute;
+    left: 22%;
+    bottom: 7%;
+    opacity: 0;
+}
+.swiper-slide .cir p{
+    position: absolute;
+    line-height: 0.22rem;
+    color: red;
+    font-size: 0.17rem;
+    font-family: myfont;
+    left: 44%;
+    transform: translateX(-50%);
+}
+.swiper-slide .item-name{
+    position: absolute;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1rem;
+}
+.swiper-slide .item-name span{
+    font-family: myfont;
+    color: #fae475;
+    font-size: 0.15rem;
+    
+}
