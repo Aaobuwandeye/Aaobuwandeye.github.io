@@ -1,3 +1,8 @@
+// if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+
+// // 当前设备是移动设备
+
+// }
 let time=setInterval(function(){
     let imgs=document.getElementsByTagName('img')
     let box=document.getElementById('box')

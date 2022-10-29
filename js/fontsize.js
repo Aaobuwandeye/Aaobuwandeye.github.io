@@ -8,7 +8,7 @@
 	function refreshRem() {
 		var width = docEl.getBoundingClientRect().width;
 		if (!maxWidth) {
-			maxWidth = 540;
+			maxWidth = 960;
 		};
 		if (width > maxWidth) {
 			width = maxWidth;
